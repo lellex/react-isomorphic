@@ -5,12 +5,14 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "next": "^2.0.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
