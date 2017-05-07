@@ -1,5 +1,7 @@
 # Comment mettre en place le server-side rendering ?
 
+:warning: Article en cours de rédaction :warning:
+
 On parle beaucoup de l'isomorphisme (ou server-side rendering) avec React ou Angular, mais comment le mettre en place concrètement ?
 
 Avec React, ce qui risque d'être le plus impactant dans notre application sera :
