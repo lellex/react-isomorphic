@@ -8,7 +8,7 @@ On parle beaucoup de l'isomorphisme (ou server-side rendering) avec React ou Ang
 
 Avec React, ce qui risque d'être le plus impactant dans notre application sera :
 * la génération du bundle : la configuration webpack devra être adaptée, le chargement des assets et des styles également.
-* l'utilisation des routes avec [react-router](https://reacttraining.com/react-router/web/guides/server-rendering), car le serveur devra configurer ces routes également en node pour les rendre accessibles avant que le javascript ne reprenne la main. 
+* l'utilisation des routes avec [react-router](https://reacttraining.com/react-router/web/guides/server-rendering) - car le serveur va devoir déclarer ces routes pour les rendre accessibles avant que le javascript ne reprenne la main. 
 * [redux](http://redux.js.org/docs/recipes/ServerRendering.html), les données initiales du states devront être fournies par le serveur afin de pouvoir afficher une première fois l'application dans son état d'origine.
 
 ## À partir d'un nouveau projet
