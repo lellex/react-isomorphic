@@ -19,9 +19,9 @@ Pour celà, il éxiste différents boilerplates clé-en-main qui gèrent le serv
 
 ![Next.js](images/next.png)
 
-Parmis cette liste, **[Next.js](https://github.com/zeit/next.js)** semble très intéréssant si l'on souhaite débuter un projet NodeJS/React.
+Le plus populaire est **[Next.js](https://github.com/zeit/next.js)**, il s'agit d'un "framework" combinant React et Node, fournissant tout le nécéssaire pour faire un rendu serveur (CLI, routes).
 
-L'utilisation de Next.js est très simple, il suffit d'installer le package en question et d'utiliser le composant *Link* qu'il propose afin de gérer les routes. Rien de plus, next s'occupe de tout ! Next dispose de tuto très simple ainsi que son propre service de déployement : [Now](https://zeit.co/now).
+L'utilisation de Next.js est très simple, il suffit d'installer le package en question et d'utiliser le composant *Link* qu'il propose afin de gérer les routes. Next dispose de tutos très simples ainsi que son propre service de déployement : [Now](https://zeit.co/now).
 
 [Démo ici](https://react-isomorphic-01.herokuapp.com/)
 
@@ -39,7 +39,7 @@ Il est aussi possible d'utiliser Next sur un projet existant. Prenons ici l'exem
 
 ![express](images/express.png)
 
-### Pas à pas avec express (plus compliqué)
+### Pas à pas avec express
 
 Une nouvelle fois, nous partirons d'un projet généré à partir de create-react-app.
 
