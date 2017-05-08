@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "next",
-    "start": "next start -p $PORT",
+    "build": "next build",
+    "start": "next start",
     "heroku-postbuild": "heroku-nextjs-build"
   },
   "keywords": [],
