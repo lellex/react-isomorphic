@@ -31,7 +31,7 @@ L'utilisation de Next.js est très simple, il suffit d'installer le package en q
 Il est aussi possible d'utiliser Next sur un projet existant. Prenons ici l'exemple d'un projet généré via create-react-app. Ce qui va changer :
 * Plus besoin de webpack ou react-scripts, next pends la main sur la génération du bundle.
 * Par conséquent, toute configuration "custom" de webpack devra être adaptée, il faudra repenser l'utilisation des loaders.
-* Next embarque [style-jsx](https://github.com/zeit/styled-jsx) d'écrire le css dans les composants jsx. Vos css devront donc être soit directement dans le jsx, soit complétement indépendant de React et appelés via une feuille de style de manière classique avec un [custom document](https://github.com/zeit/next.js#custom-document).
+* Next embarque [style-jsx](https://github.com/zeit/styled-jsx) qui permet d'écrire le css dans les composants jsx. Vos css devront donc être soit directement dans le jsx, soit complétement indépendant de React et appelés via une feuille de style de manière classique avec un [custom document](https://github.com/zeit/next.js#custom-document).
 
 [Démo ici](https://react-isomorphic-02.herokuapp.com/)
 
