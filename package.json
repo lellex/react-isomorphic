@@ -45,6 +45,7 @@
     "whatwg-fetch": "2.0.2"
   },
   "dependencies": {
+    "@mars/heroku-nextjs-build": "^2.0.0",
     "next": "^2.3.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
@@ -53,7 +54,8 @@
     "test": "node scripts/test.js --env=jsdom",
     "dev": "next",
     "build": "next build",
-    "start": "next start -p $PORT"
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "heroku-nextjs-build"
   },
   "jest": {
     "collectCoverageFrom": [
@@ -86,5 +88,8 @@
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "engines": {
+    "node": "6.9.x"
   }
 }
