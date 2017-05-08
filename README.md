@@ -17,6 +17,8 @@ Le plus simple est évidemment de prévoir le fait d'avoir un rendu serveur au d
 
 Pour celà, il éxiste différents boilerplates clé-en-main qui gèrent le server-side-rendering. Ce n'est hélas pas encore le cas des projets générés avec le CLI create-react-app. Néanmoins, [une liste de projets alternatifs](https://github.com/facebookincubator/create-react-app#alternatives) est disponible sur leur repo.
 
+![Next.js](images/next.png)
+
 Parmis cette liste, **[Next.js](https://github.com/zeit/next.js)** semble très intéréssant si l'on souhaite débuter un projet NodeJS/React.
 
 L'utilisation de Next.js est très simple, il suffit d'installer le package en question et d'utiliser le composant *Link* qu'il propose afin de gérer les routes. Rien de plus, next s'occupe de tout ! Next dispose de tuto très simple ainsi que son propre service de déployement : [Now](https://zeit.co/now).
@@ -35,6 +37,8 @@ Il est aussi possible d'utiliser Next sur un projet existant. Prenons ici l'exem
 
 [Démo ici](https://react-isomorphic-02.herokuapp.com/)
 
+![express](images/express.png)
+
 ### Pas à pas avec express (plus compliqué)
 
 Une nouvelle fois, nous partirons d'un projet généré à partir de create-react-app.
@@ -50,7 +54,7 @@ npm run eject
 On installe les dépendances nécéssaires au serveur
 
 ```bash
-npm i -D request single-child
+npm i -D request single-child webpack-hot-middleware babel-cli
 npm i -S express
 ```
 
