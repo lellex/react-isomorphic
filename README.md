@@ -37,9 +37,9 @@ Il est aussi possible d'utiliser Next sur un projet existant. Prenons ici l'exem
 
 ### Pas à pas avec express (plus compliqué)
 
-Nous allons voir ici comment procéder à partir d'une application existante, par exemple avec une app générée à partir de create-react-app.
+Une nouvelle fois, nous partirons d'un projet généré à partir de create-react-app.
 
-Premièrement, on initialise le projet avec le CLI et on extrait les sources afin de pouvoir adapter la configuration au rendu serveur.
+Si ce n'est pas déjà fait, on extrait les sources afin de pouvoir adapter la configuration.
 
 ```bash
 create-react-app react-isomorphic
