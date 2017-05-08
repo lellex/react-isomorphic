@@ -14,21 +14,8 @@ var _Layout2 = _interopRequireDefault(_Layout);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var _jsxFileName = '/home/lellex/Projets/react-isomorphic/pages/index.js?entry';
-
-
 var Index = function Index() {
-  return _react2.default.createElement(_Layout2.default, {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    }
-  }, _react2.default.createElement('p', {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    }
-  }, 'This is the home page'));
+  return _react2.default.createElement(_Layout2.default, null, _react2.default.createElement('p', null, 'This is the home page'));
 };
 
 exports.default = Index;
