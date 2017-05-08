@@ -15,7 +15,7 @@ Avec React, ce qui risque d'être le plus impactant dans notre application sera 
 
 Le plus simple est évidemment de prévoir le fait d'avoir un rendu serveur au démarrage du projet.
 
-Pour celà, il éxiste différents boilerplates clé-en-main qui gèrent le server-rendering. Ce n'est hélas pas encore le cas des projets générés avec le CLI create-react-app. Néanmoins, [une liste de projets alternatifs](https://github.com/facebookincubator/create-react-app#alternatives) est disponible sur leur repo.
+Pour celà, il éxiste différents boilerplates clé-en-main qui gèrent le server-side-rendering. Ce n'est hélas pas encore le cas des projets générés avec le CLI create-react-app. Néanmoins, [une liste de projets alternatifs](https://github.com/facebookincubator/create-react-app#alternatives) est disponible sur leur repo.
 
 Paris cette liste, **[Next.js](https://github.com/zeit/next.js)** semble très intéréssant si l'on souhaite débuter un projet NodeJS/React.
 
